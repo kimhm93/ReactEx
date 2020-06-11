@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        console.time();
+        for(var i = 0 ; i < 1000; i++) {
+            document.getElementsByTagName("body").innerHTML += 'aa';
+        }
+        console.timeEnd();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
